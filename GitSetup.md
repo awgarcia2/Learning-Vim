@@ -29,3 +29,7 @@ Then go to SSH and GPG keys
 Click New SSH key.
 Provide a descriptive title for this new key. Then paste the contents of your clipboard into the key field.
 Click add SSH key and enter your password if prompted.
+##First Clone
+Now that we are all setup we can do our first clone from our repository.
+`git clone git@github.com:<your github account>/<reponame>.git`
+
