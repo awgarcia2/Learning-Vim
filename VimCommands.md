@@ -31,13 +31,21 @@ The rest of this document will go into what commands are avaliable in each mode.
 In command mode you can set various settings that influence the enviornment. These commands use the `set` keyword. Below are some common ones.
 
 -`:set number` - toggles on line numbers
+
 -`:set nonumber` - toggles off line numbers
+
 -`:set showcmd` - shows the last command entered in the bottom right.
+
 -`:set wildmenu` - adds auto complete for commands when you press tab.
+
 -`:set showmatch` - when your cursor over a []{}() the matching one is highlighted
+
 -`:set hlsearch` - highlight words that match your search.
+
 -`:set incsearch` - searches as characters are entered.
+
 -`:set relativenumber` - turns on relative line numbering.
+
 -`:set cursorline` - turns on a line that remains under the line your cursor is on.
 
 Here are some more basic, good to know, commands:
