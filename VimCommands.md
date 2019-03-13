@@ -39,4 +39,23 @@ In command mode you can set various settings that influence the enviornment. The
 -`:set incsearch` - searches as characters are entered.
 -`:set relativenumber` - turns on relative line numbering.
 -`:set cursorline` - turns on a line that remains under the line your cursor is on.
-  
+
+Here are some more basic, good to know, commands:
+-`dd` - delete line
+-`n dd` - delete n lines from cursor down
+-`u` - undo last action
+-`ctrl-r` - redo last action
+-`/<string>` - search file for string. `n` to move to next match, `N` to move to previous match.
+-`:%s/<string_to_be_replaced>/<new_string>/c` - this will replace all strings with new string and ask for confirmation for each replacement.
+-`0` - move the the begining of the line.
+-`$` - move to the end of the line.
+-`nG` - move to the nth line of the file.
+-`1G` - move to the first line of the file.
+-`G` - move to the last line of the file.
+### Multiple files
+When you want to work on multiple files you can open them with:
+
+`vim <file1> <file2> ...`
+
+You can then switch between files with `:n` to move to the next file and `:N` will move to the previous file.
+	 
