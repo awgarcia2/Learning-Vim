@@ -77,4 +77,19 @@ When you want to work on multiple files you can open them with:
 `vim <file1> <file2> ...`
 
 You can then switch between files with `:n` to move to the next file and `:N` will move to the previous file.
-	 
+
+### Complex commands
+
+Vim has a way of combining verbs, modifiers, and text object to create more sophisticated commands.
+
+You can combine a verb and a text object or a verb and a noun.
+
+Here is an example:
+
+`diw` - this command will delete the word your cursor is on. The `d` is the verb which means delete and `iw` means inner word which will match the word your cursor is on regardless of where in the word your cursor may be located.
+
+<Complete once nouns are understood>
+
+Below I will list some common verbs, text objects and nouns.
+
+#### Verbs 
