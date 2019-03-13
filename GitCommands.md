@@ -25,4 +25,24 @@ or add all files in the directory with:
 
 ```git add .```
 
+Once you have the files in the staging area you can make a commit with command:
 
+```git commit -m "<changes>"```
+
+You can ommit the `-m "<changes>"` but it is good practice to make notes on the changes.
+
+Once you have made a commit you can push your changes to github with command:
+
+```git push```
+
+Another useful command is:
+
+```git status```
+
+
+which displays the state of the working directory abd the staging area.
+
+
+Now you have a basic handle on Git.
+
+## Branching
