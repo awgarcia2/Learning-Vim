@@ -5,7 +5,7 @@
 
 ```git config --global user.email "you@email.com"```
 
-```git congig --global user.name "Your name"```
+```git config --global user.name "Your name"```
 
 # Set up public keys
 ## Adding ssh key to the ssh-agent
